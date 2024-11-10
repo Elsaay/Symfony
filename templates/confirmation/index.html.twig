@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ConfirmationController!{% endblock %}
+
+{% block body %}
+<h2>Merci d'avoir reservé !</h2>
+<span>Rendez vous chez nous, nous vous attendons avec impatience! ;)</span>
+
+<h3>Votre réservation :</h3>
+<p><b>Nom :</b>{{ nom }}</p>
+<p><b>Service :</b>{{ service }}</p>
+<p><b>date :</b>{{ date }}</p>
+<p><b>heure :</b>{{ heure }}</p>
+{% endblock %}
